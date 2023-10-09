@@ -3,41 +3,6 @@ package module2.leccion6;
 import java.util.*;
 import java.util.function.Consumer;
 
-class Alumno implements Comparable<Alumno> {
-    private String clave;
-    private String lastName;
-    private String name;
-
-    public String getClave() {
-        return clave;
-    }
-
-    public void setClave(String clave) {
-        this.clave = clave;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    @Override
-    public int compareTo(Alumno o) {
-        return lastName.compareTo(o.lastName);
-    }
-}
-
 @FunctionalInterface
 interface PruebaDeFunctionalInterface {
     default void metodo(int a) {

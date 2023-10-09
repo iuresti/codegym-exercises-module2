@@ -17,4 +17,9 @@ public final class Chihuahua extends Perro{
     public void ingerir() {
         System.out.println("Traga");
     }
+
+    @Override
+    public String toString() {
+        return "Chihuahua{}";
+    }
 }
