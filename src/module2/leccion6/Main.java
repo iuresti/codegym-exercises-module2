@@ -5,9 +5,9 @@ import java.util.function.Consumer;
 
 @FunctionalInterface
 interface PruebaDeFunctionalInterface {
-    default void metodo(int a) {
+     default void metodo(int a) {
 
-    }
+     }
 
     void metodo2(int a, int b);
 }
